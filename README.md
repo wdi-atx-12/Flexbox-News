@@ -19,3 +19,8 @@ Tutorial Here: [Flexbox Tutorial](https://webdesign.tutsplus.com/tutorials/how-t
 Of course you could always copy and paste the code that's provided. However, if you are serious about learning this will not help you.
 
 We look forward to seeing what you come up with, happy hacking!!
+
+**Resources**  
+Lorem Ipsum Generator - [Hipster Ipsum](https://hipsum.co/)
+Free Photos - [Unsplash](https://unsplash.com/)
+            - [Pexels](https://www.pexels.com/)
