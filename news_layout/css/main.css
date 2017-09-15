@@ -110,12 +110,13 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   nav a, .nav-button {
-  flex-flow: column;
+    flex-direction: column;
 }
-  div .row {
-    flex-flow: column;
+  div article {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
@@ -156,7 +157,7 @@ nav a {
 }
 
 article {
-  text-align: justify;
+  text-align: left;
 }
 
 h3 {
@@ -174,6 +175,11 @@ p {
   margin-bottom: 25px;
   border-bottom: 1px lightgrey solid;
 }
+
+#top {
+  visibility: hidden;
+}
+
 
 /*
 ul li {
