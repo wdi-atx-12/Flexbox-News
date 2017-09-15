@@ -1,11 +1,197 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Flexbox Layout</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-  <!-- Starter File -->
-  </body>
+<head>
+	<meta charset="utf-8">
+	<title>Flexbox Layout</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- Starter File -->
+	<div class="main columns">
+		<div class="column main-column">
+			
+			<!-- article1 -->
+			<a class="article first-article" href="#">
+			  <figure class="article-image is-4by3">
+			    <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-01.png">
+			  </figure>
+
+			  <div class="article-body">
+			    <h2 class="article-title">
+			      <!-- title -->
+			      Hello World
+			    </h2>
+
+			    <p class="article-content">
+			      <!-- content -->
+			      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			    </p>
+
+			    <footer class="article-info">
+			      <!-- information -->
+			      <span>By Mr Meow</span>
+			      <span>42 comments</span>
+			    </footer>
+			  </div>
+			</a>
+
+			<!-- Nested -->
+			<div class="columns">
+			  <!-- nested1 -->
+			  <div class="column nested-column">
+			    <a class="article">
+					<figure class="article-image is-16by9">
+						<img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-02.png" alt="">
+					</figure>
+					<div class="article-body">
+						<h2 class="article-title">
+							Hello World
+						</h2>
+						<p class="article-content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+						</p>
+						<footer class="article-info">
+							<span>By Joe Smith</span>
+							<span>42 comments</span>
+						</footer>
+					</div>
+				</a>
+			  </div>
+			 
+			  <div class="column">
+				<a class="article" href="#">
+				  <figure class="article-image is-16by9">
+				    <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-03.png" alt="">
+				  </figure>
+				  <div class="article-body">
+				    <h2 class="article-title">
+				      Hello World
+				    </h2>
+				    <p class="article-content">
+				      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				    </p>
+				    <footer class="article-info">
+				      <span>By Joe Smith</span>
+				      <span>42 comments</span>
+				    </footer>
+				  </div>
+				</a>
+				<a class="article" href="#">
+				  <div class="article-body">
+				    <h2 class="article-title">
+				      Hello World
+				    </h2>
+				    <p class="article-content">
+				      Lorem ipsum dolor sit amet.
+				    </p>
+				    <footer class="article-info">
+				      <span>By Joe Smith</span>
+				      <span>42 comments</span>
+				    </footer>
+				  </div>
+				</a>
+				<a class="article" href="#">
+				  <div class="article-body">
+				    <h2 class="article-title">
+				      Hello World
+				    </h2>
+				    <p class="article-content">
+				      Lorem ipsum dolor sit amet feugiat facilisis.
+				    </p>
+				    <footer class="article-info">
+				      <span>By Joe Smith</span>
+				      <span>42 comments</span>
+				    </footer>
+				  </div>
+				</a>
+			  </div>
+			</div>
+		</div>
+
+		<div class="column">
+
+			<!-- article3 -->
+			<a class="article" href="#">
+			  <figure class="article-image is-3by2">
+			    <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-03.png">
+			  </figure>
+
+			  <div class="article-body">
+			    <h2 class="article-title">
+			      <!-- title -->
+			      Hello World
+			    </h2>
+
+			    <p class="article-content">
+			      <!-- content -->
+			      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			    </p>
+
+			    <footer class="article-info">
+			      <!-- information -->
+			      <span>By Mr Meow</span>
+			      <span>42 comments</span>
+			    </footer>
+			  </div>
+			</a>
+			<!-- article4 -->
+			<a class="article" href="#">
+			  <div class="article-body">
+			    <h2 class="article-title">
+			      Hello World
+			    </h2>
+			    <p class="article-content">
+			      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    </p>
+			    <footer class="article-info">
+			      <span>By Joe Smith</span>
+			      <span>42 comments</span>
+			    </footer>
+			  </div>
+			</a>
+			<!-- article5 -->
+			<a class="article" href="#">
+			  <div class="article-body">
+			    <h2 class="article-title">
+			      Hello World
+			    </h2>
+			    <p class="article-content">
+			      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    </p>
+			    <footer class="article-info">
+			      <span>By Joe Smith</span>
+			      <span>42 comments</span>
+			    </footer>
+			  </div>
+			</a>
+			<!-- article6 -->
+			<a class="article" href="#">
+			  <div class="article-body">
+			    <h2 class="article-title">
+			      Hello World
+			    </h2>
+			    <p class="article-content">
+			      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    </p>
+			    <footer class="article-info">
+			      <span>By Joe Smith</span>
+			      <span>42 comments</span>
+			    </footer>
+			  </div>
+			</a>
+		</div>
+	</div>
+
+</body>
 </html>
