@@ -108,15 +108,18 @@ footer p {
     flex-flow: column;
     max-width: 765px;
   }
+  div article, .row {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   nav a, .nav-button {
     flex-direction: column;
 }
-  div article {
-    flex-direction: column;
-    flex-wrap: wrap;
+  div article, .row{
+    display: block;
+    font-size: 75%;
   }
 }
 
