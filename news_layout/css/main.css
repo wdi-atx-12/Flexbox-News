@@ -1,1 +1,18 @@
 /* Write your CSS here */
+.columns {
+    display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article {
+  flex: 1;
+}
