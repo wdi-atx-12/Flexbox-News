@@ -1,1 +1,191 @@
 /* Write your CSS here */
+html {
+  background: #BEE5FD;
+}
+
+body {
+  max-width: 850px;
+  min-width: 550px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+}
+
+#logo {
+  display: inline;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+h1 {
+  margin: 0 0 0 15px;
+  padding: 25px 0 0 25px;
+}
+
+h5 {
+  margin: 0 0 0 15px;
+  padding: 25px 0 0 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+nav a {
+  width: 100%;
+  min-width: 180px;
+  min-height: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-button {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.article01 {
+  flex: 2;
+  padding-right: 10px;
+}
+
+.article02 {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.article03 {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.article04 {
+  flex: 1;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.article05 {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.article-image {
+  max-height: auto !important;
+  width: 100% !important;
+}
+
+.main-row {
+  margin-top: 15px;
+
+}
+
+.article-date {
+  display: flex;
+  justify-content: flex-end;
+  align-self: baseline;
+}
+
+footer p {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 765px) {
+  nav a, .nav-button {
+    flex-flow: column;
+    max-width: 765px;
+  }
+  div article, .row {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav a, .nav-button {
+    flex-direction: column;
+}
+  div article, .row{
+    display: block;
+    font-size: 75%;
+  }
+}
+
+/* style */
+
+body {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h5 {
+  font-weight: 400;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+nav {
+  background: rgb(0, 174, 255);
+}
+
+nav a:hover {
+  transition: 1s ease;
+  background-color: #C424FF;
+}
+
+nav a {
+  transition: 2s ease;
+  color: white;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+article {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+
+}
+
+.separator {
+  margin-bottom: 25px;
+  border-bottom: 1px lightgrey solid;
+}
+
+#top {
+  visibility: hidden;
+}
+
+
+/*
+ul li {
+  visibility: hidden;
+}
+*/
