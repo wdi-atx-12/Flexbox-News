@@ -1,1 +1,132 @@
 /* Write your CSS here */
+html {
+  background: #BEE5FD;
+}
+
+body {
+  max-width: 850px;
+  min-width: 550px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+}
+
+#logo {
+  display: inline;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+h1 {
+  margin: 0 0 0 15px;
+  padding: 25px 0 0 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+nav a {
+  width: 100%;
+  min-width: 180px;
+  min-height: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-button {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.article01 {
+  flex: 2;
+  padding-right: 10px;
+}
+
+.article02 {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.article03 {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.article04 {
+  flex: 1;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.article05 {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.article-image {
+  max-height: auto !important;
+  width: 100% !important;
+}
+
+.main-row {
+  margin-top: 15px;
+
+}
+
+article {
+}
+
+@media only screen and (max-width: 765px) {
+  nav a {
+    flex-direction: column;
+  }
+}
+
+/* style */
+
+body {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+nav {
+  background: rgb(0, 174, 255);
+}
+
+nav a:hover {
+  transition: 1s ease-out;
+  background-color: #C424FF;
+}
+
+nav a {
+  color: white;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*
+ul li {
+  visibility: hidden;
+}
+*/
