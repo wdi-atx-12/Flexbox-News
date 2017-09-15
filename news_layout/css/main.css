@@ -122,3 +122,18 @@ body {
 .nested-column {
   flex: 2;
 }
+
+@media only screen and (max-width: 960px) {
+  .special-article {
+    flex-direction: column;
+  }
+  .nested-column {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .columns {
+    display: block;
+  }
+}
