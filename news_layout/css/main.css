@@ -1,1 +1,49 @@
 /* Write your CSS here */
+* {
+  font-family: 'Merriweather', monospace;
+  margin: 20px;
+  background-color: rgb(50, 100, 115);
+  color: white;
+}
+.article {
+  display: flex;
+  align-content: flex-start;
+}
+.article-img {
+  max-width: 80%;
+  min-width: 30%;
+  max-height: 60%;
+  min-height: 30%;
+  flex: 1;
+}
+.article-content {
+  flex: 2;
+  flex-wrap: wrap;
+}
+h1, h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 45px;
+  margin: 30px;
+}
+h3 {
+  font-size: 38px;
+}
+p {
+  font-size: 20px;
+}
+#troll {
+  text-align: center;
+}
+#hey {
+  float: right;
+  vertical-align: top;
+}
+#fail {
+  float: left;
+  vertical-align: top;
+}
+footer {
+  text-shadow: 6px 6px black;
+}
