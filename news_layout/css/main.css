@@ -1,1 +1,64 @@
-/* Write your CSS here */
+/*General styling */
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+p {
+  color: #444444;
+}
+
+footer {
+  color: #666666;
+  text-align: right;
+}
+.column {
+  background-color: #fdfdfd;
+}
+
+.article {
+  background-color: #B9DEFB;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 3px 0 #888888;
+  line-height: 150%;
+}
+
+/* Flex spacing */
+.columns {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.article-body {
+  flex: 1;
+}
+
+.nested-column {
+  flex: 2;
+}
+
+@media screen and (max-width: 900px) {
+  .column, .columns {
+    display: block;
+  }
+}
+
